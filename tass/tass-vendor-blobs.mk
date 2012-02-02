@@ -122,4 +122,8 @@ PRODUCT_COPY_FILES += \
 ## Sensor
 PRODUCT_COPY_FILES += \
     vendor/samsung/tass/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/samsung/tass/proprietary/bin/memsicd:system/bin/memsicd 
+    vendor/samsung/tass/proprietary/bin/memsicd:system/bin/memsicd \
+    vendor/samsung/tass/proprietary/lib/libacc.so:system/lib/libacc.so \
+    vendor/samsung/tass/proprietary/lib/libaccelcal.so:system/lib/libaccelcal.so \
+    vendor/samsung/tass/proprietary/lib/libaccsensorcal.so:system/lib/libaccsensorcal.so \
+    vendor/samsung/tass/proprietary/lib/libaccsensorcaltest.so:system/lib/libaccsensorcaltest.so
